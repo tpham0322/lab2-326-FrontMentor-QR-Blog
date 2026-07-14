@@ -90,3 +90,22 @@ main{
 
     text-decoration:underline;
 }
+
+/* Mobile */
+
+@media (max-width: 375px){
+
+    .card{
+        width:90%;
+        max-width:320px;
+    }
+
+    .card h1{
+        font-size:20px;
+    }
+
+    .card p{
+        font-size:14px;
+    }
+
+}
